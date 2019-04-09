@@ -1,7 +1,9 @@
 <?php
 get_header();
 
-if(have_posts()){
+
+
+/* if(have_posts()){
   echo "<div class=\"grid-4\">";
   while(have_posts()) {
   	echo "<div>";
@@ -17,9 +19,10 @@ if(have_posts()){
     $conteudo = trim($conteudo);
     $conteudo = substr($conteudo, 0,75);
     echo $conteudo;
-    echo "<a href=\"".get_permalink()."\">Leia mais</a>";
+    echo "<br><a href=\"".get_permalink()."\">Leia mais</a>";
     echo "</div>";
   }
   echo "</div>";
 }
+*/
 get_footer();

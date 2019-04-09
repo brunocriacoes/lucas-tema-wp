@@ -10,3 +10,45 @@ Text Domain: PPJ-TEMA
 Tags: personalizado
 version: 1.0
 */
+/* resets */
+span{background:green;color:#fff;}
+img{width: 100%;height:auto;}
+body{padding:0;margin:0;}
+ul{list-style:none}
+a{text-decoration:none;}
+
+/*Menu */
+.logo a{font-size:2.2em;color:purple;}
+.logo a:hover{color:blue;}
+.header{padding-top:70px;position: fixed;}
+.nav ul li a{font-size: 17px;letter-spacing: 3px;color: #000;}
+.nav ul li a:hover{color: #333}
+.nav li{margin-top:25px;}
+.banner{width:1200px;}
+
+/*Box*/
+.container{padding:0 0 0 25px;}
+.grid-2{display: grid;grid-template-columns:15% 80%;}
+.grid-3{display: grid;grid-template-columns:33.3% 33.3% 33.3%;}
+
+/* secão trabalho*/
+.trabalho h2{padding:20px 0;}
+.trabalho{text-align:center;}
+.trabalho a{font-size:1.2em;color:#fff;background:purple;padding:5px 8px;}
+.trabalho a:hover{background:gray;border:solid 2px #000;}
+
+/* footer */
+.footer{background:#000;padding:50px 15px}
+.footer p{font-size:1.4em;color:#fff;}
+@media screen and (max-width: 1200px){
+.grid-2{grid-template-columns:22% 68%;}
+}
+@media screen and (max-width: 848px){
+.logo,.nav{text-align: center;}
+.grid-2{grid-template-columns:100%;}
+.container{padding:0;}
+.header{padding-top:30px}
+.logo a{font-size:2.6em;}
+.banner{width:700px}
+.header{position: relative;}	
+}      

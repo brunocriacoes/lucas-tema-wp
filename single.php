@@ -10,6 +10,10 @@ get_header();
   	echo "<h1>";
     the_title().'<br>';
     echo "</h1>";
-    the_content(); 
+    the_content();
+    echo "<strong>autor</strong> ";
+    the_author();
+    echo "<strongPostado </strong> ";
+    the_date();
 }
 get_footer();
