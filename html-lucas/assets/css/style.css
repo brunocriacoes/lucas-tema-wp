@@ -1,0 +1,19 @@
+.header{padding:25px}
+.mark a{border-bottom:solid 3px red;}
+.nav{float:right;}
+.nav li{display:inline-block;}
+.nav ul li a{font-size: 1.2em;margin-left:45px;color:#000;}
+
+.secao_ar{padding:0 25px}
+.secao_ar h1,.secao_ar span{font-size:1.7em}
+.secao_ar article{padding:50px 80px 0 }
+.secao_ar article p{font-size:1.2em;color:#222}
+
+.a{line-height:25px}
+.aside{color:red;padding:110px 0 25px 80px;background: url('../image/fundo-aside.jpg');
+background-size:500px;
+background-repeat:no-repeat; 
+}
+.aside h3{font-size:3em;color:#fff;}
+.footer_aside{padding-top:500px}
+.footer_aside img{width:60px;padding-top:15px}
